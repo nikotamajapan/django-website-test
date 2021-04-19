@@ -6,7 +6,7 @@ class IndexView(TemplateView):
     
     def get_context_data(self):
         ctxt = super().get_context_data()
-        ctxt["username"] = "まゆみ"
+        ctxt["username"] = "takahiro"
         return ctxt
     
 
